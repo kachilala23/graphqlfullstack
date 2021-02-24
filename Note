@@ -1,0 +1,35 @@
+GraphQL is a query language used to communicate between a server and client.
+It is an alternative to REST standard. GraphQL allows for nested related query in a single end point.
+
+GraphQL works with node on the server side by making use of the Apollo server. Then in the front end
+we make use of Apollo client with react to allow for easy api calls from the frontend to the backend.
+
+GraphQL is platform agnostic meaning it can work with any framework or technology stack such as .net, 
+vue, angular, java, android and so on.
+
+Apollo is a platform for building a data graph, a communication layer that seamlessly connects your 
+application clients (such as React and iOS apps) to your back-end services.
+
+Apollo Client helps your Frontend communicate with a GraphQL API. It has support for the most popular frameworks such 
+as React, Vue, or Angular and native development on iOS and Android.
+
+Apollo Server is the GraphQL server layer in your backend that delivers the responses back to the client requests.
+
+GraphQL Playground is a graphical, interactive, in-browser GraphQL IDE, created by Prisma and based on GraphiQL.
+
+But what does that mean? It means that this is an environment where we can perform Queries, Mutations, or Subscriptions to our schema and interact with its data.
+
+If you have worked with RESTful requests before this would be some kind of equivalent to Postman. 
+It's just that here you do not have to download and configure anything, it just comes by default with Apollo!
+
+Graphiql is like a dummy frontend application that allows us to test out our query against a graphql server.
+
+Starting out with out application we create a folder called server and npm init into it. We install express
+as well as set up nodemon both installation and set up in package.json
+
+Next we will install graphql.js which is the javascript implementation of graphql. (npm i graphql) as well as 
+npm install apollo-server. 
+
+
+
+
