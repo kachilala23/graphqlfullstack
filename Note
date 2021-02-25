@@ -37,6 +37,17 @@ The resolve function is where we write code needed to get data from our database
 (parent, args). the parent parameter helps with checking relationships between data. The arguement refers to
 the arguement passed in when querying the data.
 
+Mutation: This is what allows us to mutate or change our data i.e. add delete edit data and so on.
+
+To run the mutation from the graphqlui we write the code below
+mutation {
+  addAuthor(name: "kachilala", age: 23){
+    name,
+    age
+  }
+}
+
+
 
 
 
