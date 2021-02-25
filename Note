@@ -30,6 +30,15 @@ as well as set up nodemon both installation and set up in package.json
 Next we will install graphql.js which is the javascript implementation of graphql. (npm i graphql) as well as 
 npm install apollo-server. 
 
+A schema refers to the definition of a particular type. A root query is how we describe how a user
+can jump into the graph to get data. We define this in the schema file.
+
+The resolve function is where we write code needed to get data from our database. It takes two parameter
+(parent, args). the parent parameter helps with checking relationships between data. The arguement refers to
+the arguement passed in when querying the data.
+
+
+
 
 
 
