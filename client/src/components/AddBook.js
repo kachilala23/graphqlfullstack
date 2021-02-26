@@ -13,7 +13,6 @@ class AddBook extends Component {
         };
     }
     displayAuthors(){
-        console.log(this.props);
         var data = this.props.getAuthorsQuery;
         if(data.loading){
             return( <option disabled>Loading authors</option> );
@@ -23,7 +22,6 @@ class AddBook extends Component {
             });
         }
     }
-
     submitForm(e){
         e.preventDefault()
         // use the addBookMutation
@@ -36,7 +34,6 @@ class AddBook extends Component {
             refetchQueries: [{ query: getBooksQuery }]
         });
     }
-
     render(){
         return(
             <form id="add-book" onSubmit={ this.submitForm.bind(this) } >
